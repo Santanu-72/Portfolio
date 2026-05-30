@@ -3969,9 +3969,17 @@ body.light-theme .footer-bottom p {
     }
 
     .hero {
-        min-height: 100vh;
-        padding: 1rem 0;
+        min-height: auto;
+        padding: 1.5rem 0;
         margin-top: 55px;
+    }
+
+    .hero-wrapper {
+        padding: 1rem 0 0.5rem;
+    }
+
+    .premium-scroll {
+        padding: 0.5rem 0 1rem;
     }
 
     .hero-headline {
